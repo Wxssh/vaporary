@@ -3,10 +3,8 @@
 }
 
 #cardList {
-  height: 200px;
-  width: 100%;
-  max-width: 100%;
-  margin: auto;
+  height: 100px;
+  width: 800px;
   position: relative;
   border: 2px solid black;
   overflow: hidden;
@@ -19,22 +17,28 @@
   text-align: center;
   border-left: 1px solid black;
   border-right: 1px solid black;
-  width: 200px;
-  height: 200px;
+  width: 100px;
+  height: 100px;
 }
 
 .card > img {
-  width: 200px;
-  height: 200px;
+  width: 100px;
+  height: 100px;
 }
 
 .arrow-down {
-  position: absolute;
-  left: 50%;
-  transform: translate(-50%, -100%);
-  width: 0;
-  height: 0;
+  margin-left: 380px;
+  width: 0; 
+  height: 0; 
   border-left: 20px solid transparent;
   border-right: 20px solid transparent;
+  
   border-top: 20px solid #f00;
+}
+#dialog-msg > img {
+  width: 150px;
+  height: 150px;
+}
+#dialog-msg {
+  text-align: center;
 }
